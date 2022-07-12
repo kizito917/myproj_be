@@ -16,5 +16,7 @@ app.testing = True
 # enable CORS
 CORS(app, resources={ r'/*': { 'origins': '*' } })
 
+from endpoints import client, login
+
 """ from endpoints import client, login, menu_item, order, restaurant  """
 
